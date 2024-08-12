@@ -21,6 +21,13 @@
     font-family: Inter;
     font-size: .85rem;
     font-weight: 400;
+    margin-top: .75rem;
+}
+#heading{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
 }
 #btn-primary{
     background-color: rgb(230, 83, 60);
@@ -165,8 +172,39 @@ nav-bar p{
 }
 
 /* banner style ends here */
+main{
+    background-color: black;
+}
+/* habit section style starts here */
+.habit{
+    text-align: center;
+    padding-top: 4rem;
+    margin: 0 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.habit-content{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.habit-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+}
+.habit-item h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: .75rem;
 
-
+}
+.habit-item img{
+    border-radius: 50%;
+}
+/* habit section style ends here */
 /* mobile responsive style starts here */
 @media screen and (max-width:576px){
     nav-bar a , button{
