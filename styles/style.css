@@ -38,6 +38,7 @@
     border-radius: 2.5rem;
     border: none;
     
+    
 }
 #btn-second{
     border-radius: 2.6rem;
@@ -49,6 +50,7 @@
     font-weight: 600;
     border: none;
     margin-right: 1rem;
+    margin-top: 1.5rem;
 }
 
 /* nav-bar style starts here */
@@ -205,6 +207,33 @@ main{
     border-radius: 50%;
 }
 /* habit section style ends here */
+/* run section style starts here */
+.run-container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34); 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.run-content{
+    width: 45%;
+    padding: 2.5rem 3.5rem;
+}
+.run-image{
+    width: 35%;
+    padding-right: 1.5rem;
+}
+.run-image img{
+    width: 100%;
+    border-radius: 18px;
+
+    background: url(4);
+}
+/* run section style starts here */
 /* mobile responsive style starts here */
 @media screen and (max-width:576px){
     nav-bar a , button{
@@ -221,6 +250,21 @@ main{
         width: 100%;
     }
     .banner-image{
+        width: 100%;
+    }
+    .habit-content{
+        width: 100%;
+    }
+    .habit-items{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .run-container{
+        flex-direction: column;
+    }
+    .run-content{
+        width: 100%;
+    }
+    .run-image{
         width: 100%;
     }
 }
