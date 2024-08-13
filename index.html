@@ -98,7 +98,8 @@
                 <p id="para-2">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
             <div class="calculator-container">
-                <h2>BMI Calculator Chart</h2>
+                <div class="table">
+                <h2 id="heading-2">BMI Calculator Chart</h2>
                 <table>
                     <tr>
                         <th>BMI </th>
@@ -122,14 +123,19 @@
                     </tr>
 
                 </table>
+                </div>
                 <div class="bmi-calculator">
-                    <h2>Calculate your BMI</h2>
-                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-                    <input type="text" placeholder="Height/cm">
-                    <input type="text" placeholder="Weight/kg">
-                    <input type="text" placeholder="Age">
-                    <select name="" id="" ></select>
-                    <select name="" id="">Select an activity factor</select>
+                    <h2 id="heading-2">Calculate your BMI</h2>
+                    <p id="para-2">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                    <button id="bmi-btn">Height/cm</button>
+                    <button id="bmi-btn">Weight/kg</button>
+                    <button id="bmi-btn">Age</button>
+                    <select name="" id="gender" >
+                        <option value="">Sex</option>
+                    </select>
+                    <select name="" id="factor"><option value="">
+                        Select an activity factor
+                    </option></select>
                     <button id="btn-second">Calculate</button>
                 </div>
             </div>

@@ -29,6 +29,14 @@
     font-size: 3rem;
     font-weight: 900;
 }
+#heading-2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
 #btn-primary{
     background-color: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
@@ -235,6 +243,72 @@ main{
 }
 /* run section style starts here */
 
+/* calculator section style starts here */
+.calculator-content{
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.calculator-container{
+    display: flex;
+    background: rgb(34, 34, 34);
+    padding: 1rem 3rem 2rem 3rem;
+    justify-content: space-around;
+}
+ table,th,td{
+    border:  1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+th,td{
+    padding: .75rem 1.5rem .75rem 1rem;
+    text-align: left;
+}
+th{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: .85rem;
+    font-weight: 400;
+}
+.bmi-calculator{
+    width: 50%;
+}
+
+#bmi-btn,#gender{
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 48%;
+    height: 48px;
+    text-align: left;
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+#factor{
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 97%;
+    height: 48px;
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+/* calculator section style ends here */
+
 /* team section style starts here */
 .team-content{
     text-align: center;
@@ -367,6 +441,16 @@ footer{
         width: 100%;
     }
     .run-image{
+        width: 100%;
+    }
+    .calculator-content{
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .calculator-container{
+        flex-direction: column;
+    }
+    .bmi-calculator{
         width: 100%;
     }
     .foot-content{
