@@ -234,9 +234,109 @@ main{
     background: url(4);
 }
 /* run section style starts here */
+
+/* team section style starts here */
+.team-content{
+    text-align: center;
+    width: 48%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 86%;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    
+}
+
+.team-image .image{
+    width: 326px;
+    height: 272px;
+}
+.team-image .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),url(image);
+}
+/* team section style ends here */
+
+/* footer section style starts here */
+footer{
+    background-color: black;
+    padding-top:4rem ;
+    
+}
+.foot-container{
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+
+}
+.foot-content{
+    padding: 4rem 5rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.foot-bar-1{
+    width: 35%;
+}
+.foot-bar-1 h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 3.8rem;
+    font-weight: 800;
+}
+
+.foot-bar-2 h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.foot-bar-2 li{
+    list-style: none;
+    margin-bottom: .75rem;
+}
+.foot-bar-2 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.foot-bar-4{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgba(255, 255, 255, 0.1) ;
+    padding: 2rem;
+}
+.foot-bar-4 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/* footer section style starts here */
 /* mobile responsive style starts here */
 @media screen and (max-width:576px){
-    nav-bar a , button{
+    nav-bar a {
+        display: none;
+    }
+    nav-bar button{
         display: none;
     }
     
@@ -260,12 +360,21 @@ main{
     }
     .run-container{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .run-content{
         width: 100%;
     }
     .run-image{
         width: 100%;
+    }
+    .foot-content{
+        flex-direction: column;
+        padding: 3rem 1rem;
+    }
+    .foot-bar-1{
+        width: 80%;
     }
 }
 /* mobile responsive style ends here */
