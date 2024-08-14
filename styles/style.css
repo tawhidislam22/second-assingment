@@ -7,6 +7,9 @@
     max-width: 1440px;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 
 #para-1{
     color: rgba(255, 255, 255, 0.5);
@@ -64,7 +67,7 @@
 /* nav-bar style starts here */
 header{
     
-    background:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%), black ;
+    background:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 
 nav-bar{
@@ -191,9 +194,6 @@ nav-bar a{
 }
 
 /* banner style ends here */
-main{
-    background-color: black;
-}
 /* habit section style starts here */
 .habit{
     text-align: center;
@@ -565,14 +565,10 @@ td{
 /* team section style ends here */
 
 /* footer section style starts here */
-footer{
-    background-color: black;
-    padding-top:4rem ;
-    
-}
 .foot-container{
     background: rgba(255, 255, 255, 0.1);
     width: 100%;
+    margin-top:4rem ;
 
 }
 .foot-content{
