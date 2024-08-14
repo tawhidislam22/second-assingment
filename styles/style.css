@@ -563,7 +563,45 @@ td{
 }
 
 /* team section style ends here */
+/* support section style starts here */
+.support-content{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
 
+}
+.support-card-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3rem 3rem;
+    gap: 2rem;
+}
+.support-card{
+    border-radius: 8px;
+    padding: 1.5rem 1.5rem 2rem 1rem;
+}
+.support-card h3{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.support-card img{
+    height: 50px;
+    width: 50px;
+}
+.support-card p{
+    width: 80%;
+}
+.support-card button{
+    border: 1px solid white;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: .5rem 1.5rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+/* support section style starts here */
 /* footer section style starts here */
 .foot-container{
     background: rgba(255, 255, 255, 0.1);
@@ -630,6 +668,7 @@ td{
     html{
         font-size: 70%;
     }
+    /* nav-bar section responsive style starts here */
     nav-bar{
         padding: 1.5rem;
     }
@@ -647,6 +686,8 @@ td{
         display: block;
         padding-right: 1.5rem;
     }
+    /* nav-bar section responsive style ends here */
+    /* banner section responsive style starts here */
     .banner{
         flex-direction: column;
         padding: 1.5rem;
@@ -684,6 +725,8 @@ td{
         bottom: 43%;
         left: 5%;
     }
+    /* banner section responsive style ends here */
+    /* habit section responsive style starts here */
     .habit-content{
         width: 100%;
     }
@@ -697,6 +740,7 @@ td{
         width: 60%;
         margin: 0 auto;
     }
+     /* habit section responsive style ends here */
     /* run section responsive style starts here */
     .run-container{
         flex-direction: column;
@@ -789,6 +833,12 @@ td{
         display: none;
     }
     /* team section responsive style ends here */
+    .support-content{
+        width: 80%;
+    }
+    .support-card-box{
+        grid-template-columns: repeat(1,1fr);
+    }
     /* footer section responsive style starts here */
     .foot-content{
         flex-direction: column;
