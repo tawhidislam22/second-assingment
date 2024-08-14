@@ -705,6 +705,10 @@ footer{
     .habit-item{
         width: 100%;
     }
+    .habit-item p{
+        width: 60%;
+        margin: 0 auto;
+    }
     /* run section responsive style starts here */
     .run-container{
         flex-direction: column;
