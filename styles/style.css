@@ -833,12 +833,14 @@ td{
         display: none;
     }
     /* team section responsive style ends here */
+    /* support section responsive style starts here */
     .support-content{
         width: 80%;
     }
     .support-card-box{
         grid-template-columns: repeat(1,1fr);
     }
+    /* support section responsive style ends here */
     /* footer section responsive style starts here */
     .foot-content{
         flex-direction: column;
