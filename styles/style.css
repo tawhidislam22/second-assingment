@@ -89,9 +89,9 @@ nav-bar a{
     font-weight: 400;
     margin-left: 1.5rem;
 }
-nav-bar .icon{
-    color:rgb(255, 255, 255) ;
-    font-size: 1.2rem;
+.icon{
+    color: white;
+    font-size: 18px;
     display: none;
     
 }
@@ -139,8 +139,8 @@ nav-bar .icon{
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    padding: 1rem 1.5rem;
-    width: 45%;
+    padding: 1rem 3.5rem 1rem 1.5rem;
+    
     position: absolute;
     top: 25%;
     right: -15%;
@@ -162,11 +162,10 @@ nav-bar .icon{
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-    padding: 1.5rem 1.25rem;
+    padding: 1.5rem 2.5rem 1.5rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 48%;
     gap: .5rem;
     position: absolute;
     bottom: 13%;
@@ -216,7 +215,7 @@ main{
 .habit-item h3{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 1.2rem;
+    font-size: 18px;
     font-weight: 600;
     margin-top: .75rem;
 
@@ -641,10 +640,10 @@ footer{
 /* mobile responsive style starts here */
 @media screen and (max-width:576px){
     html{
-        font-size: 80%;
+        font-size: 70%;
     }
     nav-bar{
-        padding: 1rem;
+        padding: 1.5rem;
     }
     nav-bar h1{
         font-size: 4rem;
@@ -656,30 +655,35 @@ footer{
         display: none;
     }
     
-    nab-bar .icon{
-        display:block;
+    .icon{
+        display: block;
+        padding-right: 1.5rem;
     }
     .banner{
         flex-direction: column;
-        padding: 1rem;
+        padding: 1.5rem;
     }
     .banner-button{
         display: flex;
+        width: 100%;
+    }
+    .banner-button button{
+        width: 48%;
     }
     
     .banner-content{
         width: 100%;
     }
     .banner-content h1{
-        font-size: 2.25rem;
-        line-height: 45px;
+        font-size: 4rem;
+        line-height: 40px;
     }
     .banner-content p{
         width: 75%;
         
     }
     #shape{
-        font-size: 5rem;
+        font-size: 7rem;
     }
     .banner-image{
         width: 90%;
@@ -687,14 +691,10 @@ footer{
     .banner-card1{
         top: 8%;
         right: 5%;
-        width: 40%;
-        padding: 1rem 1rem;
     }
     .banner-card2{
         bottom: 43%;
         left: 5%;
-        width: 45%;
-        padding: 1rem 1rem;
     }
     .habit-content{
         width: 100%;
