@@ -222,7 +222,7 @@ nav-bar a{
 }
 .habit-item img{
     border-radius: 50%;
-    border: 2px solid rgba(0, 0, 0, 0.201);
+    border: 5px solid rgba(0, 0, 0, 0.096);
 }
 /* habit section style ends here */
 /* run section style starts here */
@@ -248,8 +248,6 @@ nav-bar a{
 .run-image img{
     width: 100%;
     border-radius: 18px;
-
-    background: url(4);
 }
 /* run section style starts here */
 
